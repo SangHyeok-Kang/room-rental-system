@@ -1,52 +1,50 @@
 # 자취방 대여 시스템
 <div align = "center">
-  <img src = "">
+  <img src = "https://github.com/SangHyeok-Kang/DataRepository/blob/3c52b3dd4790332c96966e645d099ba4123a3b34/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/banner.png">
 </div>
 
 <br>
 
 ## 💡 주제
 
-- 오프라인 교육 보조 웹 사이트
-- 강의 등록 및 수강 신청 보조
+- **네이버 클라우드 시스템**을 사용한 자취방 대여 웹 사이트 구축
 
 <br>
 
 ## 📝 설명
 
-- ***오프라인 교육 보조 시스템***은 **디지털 새싹 교육캠프**를 진행하며 **기존 시스템의 단점**을 보완하고 개선하기 위해 구축한 플랫폼 입니다. 
-- **강의 등록, 수강 신청, 설문 조사** 등  오프라인 교육 정보에 대한 정보를 제공하여 교육의 다양성을 높이고 질 높은 교육을 받을 수 있는 플랫폼을 제공합니다.
+- **내방 어때?** 는 **COVID-19**로 인하여 **비대면 수업**이 활성화되었고 실제로 거주하고 있지 않지만 **장기간 계약**으로 인해 **월세에 부담**을 느끼고있는 자취생들을 위한 플랫폼입니다.
+- **통학**을 해야하는 학생들에게 공강시간에 장소를 대여해주어 시간을 **효율적**으로 사용할 수 있도록 하고, **자취생**들은 금전적인 문제를 해결할 수 있도록 제공합니다. 
 
 <br>
 
 ## 🖥️ 시스템 구조도
 
 <div align = "center">
-  <img src = "">
+  <img src = "https://github.com/SangHyeok-Kang/DataRepository/blob/9b7f711b74b3c595006fc3519018d4a78a480fa1/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/system.png">
 </div>
 
 ## 🖥️ 기술 스택
-- **Language** : 
-- **Server** :  Apache Tomcat 9
-- **Database** : MySQL 8.0.29
-- **Tools** : 
+- **Language** : HTML5, CSS3, JSP
+- **Server** :  NCP([Compact] 1vCPU, 2GB Mem [g1)], Apache Tomcat 9Apache Tomcat 9
+- **OS** : Ubuntu 18.04
+- **Database** : MySQL 8.0.29 
+- **Tools** : VSCode , Git
 
 <br>
 
 ## ✨ 주요 기능
 
-- **강의 개설**
-    - 기관이나 개인이 강의를 개설할 수 있도록 합니다.
-    - 강의 개설에 필요한 강의 명, 강의 시간, 강의 장소 등을 입력하여 강의를 개설합니다.
-- **강의 신청**
-    - 멘토와 멘티는 강의를 신청 할 수 있습니다.
-    - 강의 목록을 조회하여 자신이 참여하고 싶은 강의를 선택하고 회차를 선택하여 강의를 신청합니다.
-- **강의 리뷰**
-    - 사용자는 수료 후 강의에 대한 후기를 작성할 수 있습니다.
-    - 강의 개설자는 후기를 통계로 요약하여 조회할 수 있습니다.
-- **온라인 강의실**
-    - 강의에 대한 공지, 자료 등을 업로드 및 다운로드 할 수 있습니다.
- 
+- **방 등록**
+    - 사용자는 자신의 방을 등록하여 예약을 받을 수 있습니다.
+    - 방 사진, 옵션, 주소, 계좌번호 등 자신의 방 정보를 입력을 통해 등록이 가능합니다.
+- **방 검색 및 예약**
+    - 사용자는 방의 세부 내역을 확인하고 시간을 선택하여 예약이 가능합니다.
+- **리뷰 및 평점**
+    - 사용자는 방을 사용 후 그 방과 집주인에 대한 리뷰와 평점을 남길 수 있습니다.
+- **사용자 관리 및 신고**
+    - 사용자는 문의 등록 및 사용자 신고기능을 통해 부적절한 사용자에 대해 신고 혹은 질문 등록이 가능합니다.
+    - 사용자 이용제한 기능을 통해 관리자는 부적절한 사용자에 대해 이용제한을 부여할 수 있습니다.
 <br>
 
 ## 📙 WBS
@@ -65,13 +63,13 @@
 
 <div align = "center">
   
-| 메인 페이지 | 온라인 강의실 |
+| 메인 페이지 | 방 등록 |
 | :---: | :---: |
-| <img width="350" alt="" src=""> | <img width="350" alt="" src=""> |
+| <img width="350" alt="메인페이지" src="https://github.com/SangHyeok-Kang/DataRepository/blob/9b7f711b74b3c595006fc3519018d4a78a480fa1/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.png"> | <img width="350" alt="방 등록" src="https://github.com/SangHyeok-Kang/DataRepository/blob/b89867881039ab86c66d46a188aecd691574d3a2/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EB%B0%A9%20%EB%93%B1%EB%A1%9D%20%ED%99%94%EB%A9%B4.png"> |
 
-| 강의 신청 | 강의 리뷰 |
+| 방 예약 | 예약 내역 조회 |
 | :---: | :---: |
-| <img width="350" alt="청" src=""> | <img width="350" alt="" src=""> |
+| <img width="350" alt="방 예약" src="https://github.com/SangHyeok-Kang/DataRepository/blob/b89867881039ab86c66d46a188aecd691574d3a2/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EC%98%88%EC%95%BD%20%ED%8E%98%EC%9D%B4%EC%A7%80.png"> | <img width="350" alt="예약 내역 조회" src="https://github.com/SangHyeok-Kang/DataRepository/blob/b89867881039ab86c66d46a188aecd691574d3a2/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EC%98%88%EC%95%BD%20%EB%82%B4%EC%97%AD%20%EC%A1%B0%ED%9A%8C.png"> |
 
 </div>
 
@@ -80,12 +78,8 @@
 ## 👨‍👦팀 구성
 <div align="center">
 
-|김부성 ``` Fullstack Dev ```| 강상혁 ```Backend Dev``` | 송준섭 ```Backend Dev``` |
-|:-:|:-:|:-:|
-|<img src="https://avatars.githubusercontent.com/u/93811002?v=4" width=130>| <img src="https://avatars.githubusercontent.com/u/104892909?s=400&v=4" width=130> | <img src="https://avatars.githubusercontent.com/u/115469010?v=4" width=130> |
-|[@Bu-Sung](https://github.com/Bu-Sung)| [@SangHyeok-Kang](https://github.com/SangHyeok-Kang)| [@JunSeop-Song](https://github.com/Junseop-Song)|
+|강상혁 ``` Fullstack Dev ```| 송준섭 ```Backend Dev``` | 김성찬 ```Backend Dev``` | 김민승 ```Frontend Dev``` |
+|:-:|:-:|:-:|:-:|
+| <img src="https://avatars.githubusercontent.com/u/104892909?s=400&v=4" width=130> | <img src="https://avatars.githubusercontent.com/u/115469010?v=4" width=130> | <img src="https://avatars.githubusercontent.com/u/115801420?v=4" width=130> |
+| [@SangHyeok-Kang](https://github.com/SangHyeok-Kang)| [@JunSeop-Song](https://github.com/Junseop-Song)| [@tjdckscert](https://github.com/tjdckscert)|
 
-|박채빈 ``` Backend Dev ```|이수진 ```Frontend Dev``` |
-|:-:|:-:|
-|<img src="https://avatars.githubusercontent.com/u/93811002?v=4" width=130>| <img src="https://avatars.githubusercontent.com/u/104892909?s=400&v=4" width=130> |
-|[@parkchaebin](https://github.com/parkchaebin)| [@SUJ11V](https://github.com/SUJ11V)|
