@@ -56,13 +56,6 @@
 
 <br>
 
-<!--
-## 📘 ERD
-<div align = "center">
-  <img src = "">
-</div>
--->
-
 ## 📲 UI
 
 <div align = "center">
@@ -75,6 +68,13 @@
 | :---: | :---: |
 | <img width="350" alt="방 예약" src="https://github.com/SangHyeok-Kang/DataRepository/blob/b89867881039ab86c66d46a188aecd691574d3a2/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EC%98%88%EC%95%BD%20%ED%8E%98%EC%9D%B4%EC%A7%80.png"> | <img width="350" alt="예약 내역 조회" src="https://github.com/SangHyeok-Kang/DataRepository/blob/b89867881039ab86c66d46a188aecd691574d3a2/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EC%98%88%EC%95%BD%20%EB%82%B4%EC%97%AD%20%EC%A1%B0%ED%9A%8C.png"> |
 
+</div>
+
+<br>
+
+## 📅 일정 관리
+<div align = "center">
+  <img src = "https://github.com/SangHyeok-Kang/DataRepository/blob/3c52b3dd4790332c96966e645d099ba4123a3b34/%EB%82%B4%EB%B0%A9%EC%96%B4%EB%95%8C/%EC%9D%BC%EC%A0%95.png" width="70%">
 </div>
 
 <br>
